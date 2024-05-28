@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : pypi-uvicorn
-Version  : 0.29.0
-Release  : 1
-URL      : https://files.pythonhosted.org/packages/49/8d/5005d39cd79c9ae87baf7d7aafdcdfe0b13aa69d9a1e3b7f1c984a2ac6d2/uvicorn-0.29.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/49/8d/5005d39cd79c9ae87baf7d7aafdcdfe0b13aa69d9a1e3b7f1c984a2ac6d2/uvicorn-0.29.0.tar.gz
+Version  : 0.30.0
+Release  : 2
+URL      : https://files.pythonhosted.org/packages/d3/f7/4ad826703a49b320a4adf2470fdd2a3481ea13f4460cb615ad12c75be003/uvicorn-0.30.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/d3/f7/4ad826703a49b320a4adf2470fdd2a3481ea13f4460cb615ad12c75be003/uvicorn-0.30.0.tar.gz
 Summary  : The lightning-fast ASGI server.
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -67,15 +67,15 @@ python3 components for the pypi-uvicorn package.
 
 
 %prep
-%setup -q -n uvicorn-0.29.0
-cd %{_builddir}/uvicorn-0.29.0
+%setup -q -n uvicorn-0.30.0
+cd %{_builddir}/uvicorn-0.30.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713106030
+export SOURCE_DATE_EPOCH=1716908951
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
