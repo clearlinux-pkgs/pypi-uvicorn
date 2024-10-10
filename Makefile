@@ -1,5 +1,5 @@
 PKG_NAME := pypi-uvicorn
-URL = https://files.pythonhosted.org/packages/0a/96/ee52d900f8e41cc35eaebfda76f3619c2e45b741f3ee957d6fe32be1b2aa/uvicorn-0.31.0.tar.gz
+URL = https://files.pythonhosted.org/packages/76/87/a886eda9ed495a3a4506d5a125cd07c54524280718c4969bde88f075fe98/uvicorn-0.31.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
