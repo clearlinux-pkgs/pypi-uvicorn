@@ -7,7 +7,7 @@
 #
 Name     : pypi-uvicorn
 Version  : 0.32.0
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/e0/fc/1d785078eefd6945f3e5bab5c076e4230698046231eb0f3747bc5c8fa992/uvicorn-0.32.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e0/fc/1d785078eefd6945f3e5bab5c076e4230698046231eb0f3747bc5c8fa992/uvicorn-0.32.0.tar.gz
 Summary  : The lightning-fast ASGI server.
